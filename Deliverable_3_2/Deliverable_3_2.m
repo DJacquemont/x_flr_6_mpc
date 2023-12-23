@@ -8,9 +8,9 @@ clc
 
 % Parameters
 CLOSELOOP = true;
-MPC_X=0;
-MPC_Y=0;
-MPC_Z=0;
+MPC_X=1;
+MPC_Y=1;
+MPC_Z=1;
 MPC_R=1;
 
 

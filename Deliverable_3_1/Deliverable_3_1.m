@@ -84,7 +84,7 @@ end
 %% MPC Controller ROLL
 
 if MPC_R
-    x0 = [0; deg2rad(40)];
+    x0 = [0; deg2rad(30)];
     mpc_roll = MpcControl_roll(sys_roll, Ts, H);
     
     if CLOSELOOP
