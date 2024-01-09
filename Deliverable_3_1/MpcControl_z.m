@@ -53,7 +53,7 @@ classdef MpcControl_z < MpcControlBase
             % u = Pavg
             % x = [vz, z]
 
-            Q = diag([10 10]); % eye(size(X, 1))
+            Q = diag([1 20]); % eye(size(X, 1))
             R = 1; % eye(size(U, 1))
 
             % Constraints

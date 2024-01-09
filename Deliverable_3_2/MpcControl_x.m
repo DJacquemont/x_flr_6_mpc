@@ -39,7 +39,7 @@ classdef MpcControl_x < MpcControlBase
             % x = [wy, beta, vx, x]
 
             % Cost Matrices
-            Q = diag([1 1 1 10]); % eye(size(X, 1))
+            Q = diag([1 1 1 20]); % eye(size(X, 1))
             R = 1; % eye(size(U, 1))
 
             % Constraints

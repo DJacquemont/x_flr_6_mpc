@@ -21,7 +21,7 @@ rocket = Rocket(Ts);
 sys = rocket.linearize(xs, us);
 [sys_x, sys_y, sys_z, sys_roll] = rocket.decompose(sys, xs, us);
 
-H = 3;
+H = 4;
 Tf = 10;
 
 %% MPC Controller X
