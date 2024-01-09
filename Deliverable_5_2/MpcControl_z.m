@@ -122,8 +122,8 @@ classdef MpcControl_z < MpcControlBase
             M = [1;-1]; m = [80-u_shift; -50+u_shift];
 
             con = [M*us <= m, ...
-                xs == mpc.A*xs + mpc.B*us + mpc.B * d_est,...
-                ref == mpc.C*xs + mpc.D * d_est];
+                xs == mpc.A*xs + mpc.B*us,...
+                ref == mpc.C*xs];
 
             obj = us^2;
             
