@@ -1,6 +1,5 @@
 MPC controller to fly a rocket prototype
 
-TODO:
 - Deliverable 2.1 -> Explain from an intuitive physical / mechanical perspective, why this separation into independent subsystems is possible
 - Deliverable 3.1 -> Design four MPC controllers for x, y , z and roll
 - Deliverable 3.2 -> Extend your controllers so that they can track constant references. 
